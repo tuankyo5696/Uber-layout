@@ -31,7 +31,11 @@ ul.dropdown-menu.show {
 /*Header*/
 section{
     height: 100vh;
+   
 }
+html, body {
+    overflow-x: hidden;
+  }
 
 .toggleButton{
     margin-left:auto; 
@@ -161,6 +165,7 @@ h1.text3 {
     background-position: center center;
     height: 84vh;
     background-size: cover;
+    display: flex
 }
 h3.moving {
     float: left;
@@ -273,7 +278,10 @@ h5.agree {
 }
 */
 
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}   
 /*Editing*/
 /*Mobile*/ 
 /*Min width*/
@@ -360,12 +368,7 @@ h5.agree {
         border: 2px solid #c5c5c5;
         margin-top: 1vh;
     }
-    .registerBg{
-        background-image: url(img/bg-register.jpg);
-        background-position: center center;
-        height: 84vh;
-        background-size: cover;
-    }
+
     input.form-control {
         width: 56vw;
     }

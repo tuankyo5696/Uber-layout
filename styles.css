@@ -512,11 +512,7 @@ h5.agree {
         width: 23vw;
     }
 
-    .boxContent {
-        transform: translate(90%, 58%);
-        width: 36vw;
-        height: 20vh;
-    }
+ 
     input[type="text"] {
     font-size: 2vh;
     }

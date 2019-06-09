@@ -1,0 +1,209 @@
+section{
+    height: 100vh;
+}
+@media (min-width: 1300px){
+	section{
+		height: 90vh;
+	}
+}
+
+/*Header*/
+/*
+
+/*Header*/
+/*Navbar*/
+.navbarBar{
+    background-color:white;
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*Logo Uber*/
+.logo1 {
+      height: 80%;
+}
+/*Dropdown Button*/
+.toggleButton{
+    border:none;
+    background:transparent;
+   
+}
+
+/*Register Content*/
+
+.registerBg{
+	height: 80%;
+	background-image: url(img/bg-register.jpg);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+}
+.coverRegister {
+    background-color: #fffffff2;
+    padding-top: 5%;
+    margin: auto;
+    width: 80%;
+    height: 60%;
+    display: flex;
+}
+form{
+	justify-content: center;
+	margin: 20px auto;
+       
+
+}
+
+@media (min-width:  600px){
+	.coverRegister{
+		width : 500px;
+	}
+	.moving{
+		font-size: 250%;
+	}
+}
+/*Get moving with Uber*/
+.moving {
+    color: #5d5b5b;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 100%;
+}
+/*+84*/
+.tel {
+    color: gray;
+    font-weight: bold;
+    display: block;
+    margin: 8px  10px;
+    text-align: left;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 2vh;
+}
+/*Input Group*/
+.group-inline {
+     width: 100%;
+    padding: 8px;
+    display: flex;
+    align-items: stretch;   
+    flex-direction: row;
+}
+.item1{
+	flex-grow: 8;
+}
+.item2{
+	flex-grow: 4;
+	margin: auto;
+}
+.coverFormInput{
+    box-shadow: 15px 15px 15px rgb(226, 226, 226);  
+}
+input[type="text"] {
+    font-size: 80%;
+}
+input.form-control {
+    border: none;
+   	width: 100%;
+    border: none;
+    background: #fffffffc;
+    height: 30px;
+}
+
+/*Checkbox*/
+input[type=checkbox]
+{
+
+}
+input[type="checkbox"]:checked {
+    border: 2px solid #2c4358;
+  }
+
+.input-group-text {
+    display: flex;
+    width: 100%;
+    padding-left: 5%;
+    align-items: center;
+    align-items: stretch;
+    flex-direction: row;
+}
+/*Agree Terms and conditions*/
+.agree {
+    color: gray;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-weight: 400;
+    font-size: 80%;
+}
+/*Button Next*/
+.next {
+    border-color: gray;
+    border: 2px solid #c5c5c5;
+    display: flex;
+    padding: 5%;
+    font-size: 200%;
+    border-radius: 50%;
+}
+.rightArrow {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+.fa-arrow-right {
+    font-size: 100%;
+}
+.item3{
+	flex-grow: 4;
+	margin:auto;
+}
+.item4{
+	flex-grow: 8;
+	margin:auto;
+}
+/*Footer*/
+
+
+footer{
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    align-items: stretch;   
+    flex-direction: row;
+    }
+.group1{
+        flex-grow: 8;
+   }
+.text3{
+    font-size: 2vw;
+    color: #404040;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.group2{
+        padding-left: 16vw;
+        flex-grow: 4;
+        margin: auto;
+}
+
+
+@media (min-width: 500px){
+	.group1{
+	    padding: auto;
+	}
+	.text3{
+	    font-size:15px;
+	}   
+	.group2{
+	 padding-left : 26vw;
+	}
+       
+}
+
+@media (min-width: 1000px){
+    .group1{
+            padding: auto;
+    }
+
+	.text3{
+	    font-size:15px;
+	}   
+    .group2{
+         padding-left : 43vw;
+    }
+}
